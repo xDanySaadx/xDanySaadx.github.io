@@ -6,29 +6,22 @@ body {
   background-attachment: fixed;
   background-size: cover;
 }
-.header {
+.sidebar {
   list-style: none;
   padding: 0px;
-  background-color: rgba(71, 71, 71, 0.384);
-  width: 100%;
+  background-color: rgb(37, 37, 37);
+  width: 11%;
   position: fixed;
-  margin-top: 0px;
-  font-size: 20px;
+  margin-top: 200px;
+  font-size: 15px;
   text-align: center;
 }
-.header li a {
+.sidebar td a {
   text-decoration: none;
   color: white;
-  padding: 20px;
+  padding: 5px;
   display: block;
-  float: left;
-}
-.header li {
-  display: inline-block;
-  text-align: center;
-}
-.header li a:hover {
-  background: rgba(25, 0, 255, 0.692);
+  float: center;
 }
 .content {
   width: 80%;
@@ -50,5 +43,5 @@ td {    padding: 18px; font-size: 23px; text-align: center;    background: #1d1d
     color: rgb(255, 255, 255);    border-top: 1px solid transparent; 
 }
 td:hover {
-  background-color: rgba(71, 51, 253, 0.534);
+  background-color: rgba(189, 3, 3, 0.692);
 }
