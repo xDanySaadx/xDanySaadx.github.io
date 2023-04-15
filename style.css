@@ -12,7 +12,7 @@ body {
   background-color: rgb(37, 37, 37);
   width: 12%;
   position: fixed;
-  margin-top: 200px;
+  margin-top: 0;
 }
 .sidebar td a {
   text-decoration: none;
