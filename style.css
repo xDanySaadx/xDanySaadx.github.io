@@ -10,17 +10,17 @@ body {
   list-style: none;
   padding: 0px;
   background-color: rgb(37, 37, 37);
-  width: 11%;
+  width: 10%;
   position: fixed;
   margin-top: 200px;
-  font-size: 15px;
-  text-align: center;
 }
 .sidebar td a {
   text-decoration: none;
   color: white;
   padding: 5px;
   display: block;
+  font-size: 20px;
+  text-align: center;
   float: center;
 }
 .content {
@@ -36,10 +36,10 @@ body {
 .tabla2 {     font-family: Arial, Helvetica, sans-serif;
   font-size: 12px;    margin: auto;     width: 60%; text-align: left;    border-collapse: collapse; 
 }
-th {     font-size: 13px;   font-weight: normal;  text-align: center;   padding: 18px;     background: #6e6e6e;
+th {     font-size: 20px;   font-weight: normal;  text-align: center;   padding: 18px;     background: #6e6e6e;
     border-top: 0px solid #aabcfe;    border-bottom: 0px solid #fff; color: rgb(255, 255, 255); 
 }
-td {    padding: 18px; font-size: 23px; text-align: center;    background: #1d1d1d00;     border-bottom: 0px solid #000000;
+td {   padding: 18px; font-size: 23px; text-align: center;  fill: white; stroke: black; stroke-width: 1px;  font-weight: bold; font-family: verdana;  background: #1d1d1d00;     border-bottom: 0px solid #000000;
     color: rgb(255, 255, 255);    border-top: 1px solid transparent; 
 }
 td:hover {
